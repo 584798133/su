@@ -42,8 +42,9 @@ class App extends React.Component{
 	change1(){
 		setTimeout(()=>{
 			this.change(this.state.value)
-		},0)
+		},0);
 	}
+	//111
 	change(value){
 		console.log('value',value)
 	}
